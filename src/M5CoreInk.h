@@ -16,7 +16,8 @@ class M5CoreInk {
    private:
     /* data */
     // WFT0154CZB3
-   public:
+    bool _inkEnable;
+public:
     M5CoreInk(/* args */);
     ~M5CoreInk();
 
